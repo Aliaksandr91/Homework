@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 type RatingPropsType = {
-    value: 0 | 1 | 2 | 3 | 4 | 5
+    // value: 0 | 1 | 2 | 3 | 4 | 5
 }
 type StarPropsType = {
     selected: boolean
@@ -9,11 +9,8 @@ type StarPropsType = {
 
 function Star(props: StarPropsType) {
     console.log('Star rendering')
-    if (props.selected) {
-        return <span><b>star </b></span>
-    } else {
-        return <span>star </span>
-    }
+    return props.selected ?  <span><b>star </b></span> : <span>star </span>
+
 }
 
 export function UnControlledRating() {
