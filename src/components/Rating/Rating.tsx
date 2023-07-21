@@ -9,11 +9,8 @@ type StarPropsType = {
 
 function Star(props: StarPropsType) {
     console.log('Star rendering')
-    if (props.selected) {
-        return <span><b>star </b></span>
-    } else {
-        return <span>star </span>
-    }
+
+    return <span> {props.selected ? <b>star </b> : 'star '}</span>
 }
 
 export function Rating(props: RatingPropsType) {
