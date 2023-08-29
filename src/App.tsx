@@ -7,7 +7,7 @@ import UnControlledAccordion from "./components/UnControlledAccordion/UnControll
 import {UnControlledRating} from "./components/UncontrolledRating/UnControlledRating";
 import {UncontrolledOnOff} from "./components/UncontrolledOnOff/UncontrolledOnOff";
 import {Select} from "./components/Select/Select";
-import {SimpleExample} from "./components/useEffect/UseEffect";
+import {SetTimeOutExample, SimpleExample} from "./components/useEffect/UseEffect";
 
 function App() {
     console.log('App rendering')
@@ -39,6 +39,7 @@ function App() {
                 {value: '3', title: 'Kiev'},
             ]}/>
             <SimpleExample/>
+            <SetTimeOutExample/>
         </div>
     )
 }
