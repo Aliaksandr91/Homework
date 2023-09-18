@@ -8,6 +8,7 @@ import {UnControlledRating} from "./components/UncontrolledRating/UnControlledRa
 import {UncontrolledOnOff} from "./components/UncontrolledOnOff/UncontrolledOnOff";
 import {Select} from "./components/Select/Select";
 import {SetTimeOutExample, SimpleExample} from "./components/useEffect/UseEffect";
+import {Clock} from "./components/Clock/Clock";
 
 function App() {
     console.log('App rendering')
@@ -40,6 +41,7 @@ function App() {
             ]}/>
             <SimpleExample/>
             <SetTimeOutExample/>
+            <Clock/>
         </div>
     )
 }
