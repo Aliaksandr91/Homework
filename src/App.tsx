@@ -9,6 +9,7 @@ import {UncontrolledOnOff} from "./components/UncontrolledOnOff/UncontrolledOnOf
 import {Select} from "./components/Select/Select";
 import {SetTimeOutExample, SimpleExample} from "./components/useEffect/UseEffect";
 import {Clock} from "./components/Clock/Clock";
+import {KeysTrackerExample, ResetEffect} from "./components/ResetEffect/ResetEffect";
 
 function App() {
     console.log('App rendering')
@@ -42,6 +43,8 @@ function App() {
             <SimpleExample/>
             <SetTimeOutExample/>
             <Clock/>
+            <ResetEffect/>
+            <KeysTrackerExample/>
         </div>
     )
 }
